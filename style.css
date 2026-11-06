@@ -45,20 +45,15 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   padding: 54px 34px;
 }
 .avatar {
-  width: 92px;
-  height: 92px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-family: "Fraunces", Georgia, serif;
-  font-size: 2.1rem;
-  font-weight: 500;
-  color: #fff;
-  background: linear-gradient(135deg, #8a2b27 0%, #b9533a 100%);
-  box-shadow: 0 6px 20px rgba(122, 35, 32, 0.22);
-  margin-bottom: 22px;
-  letter-spacing: 1px;
+  overflow: hidden;
+  background: #efe7df;
+  box-shadow: 0 0 0 4px #fff, 0 10px 26px rgba(122, 35, 32, 0.20);
+  margin-bottom: 24px;
 }
+.avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; display: block; }
 .name {
   font-family: "Fraunces", Georgia, serif;
   font-weight: 600;
